@@ -4,10 +4,23 @@ body {
         background-size: cover;
 }
 
+h3 {
+	font-color: white;
+}
+
 textarea {
+	margin-top: 30px;
         background: transparent;
         border-style: solid;
         border-color: black;
         border-width: 2px;
         color: white;
+}
+
+.button-container {
+	text-align: center;
+}
+
+button {
+	margin-top: 20px;
 }
