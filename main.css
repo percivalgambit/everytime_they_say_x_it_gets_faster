@@ -19,8 +19,8 @@ textarea {
 }
 
 .col-md-6 {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
 }
 
 .button-container {
@@ -72,4 +72,5 @@ button {
 
 .text {
         color: white;
+        font-family: "Comic Sans MS", cursive, sans-serif;
 }
