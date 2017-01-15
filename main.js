@@ -38,8 +38,6 @@ function readText() {
 	});
 	for (let i = 0; i < sentences.length; i++) {
 		if (sentences[i]) {
-			console.log(sentences[i]);
-			console.log("rate: " + rate);
 			responsiveVoice.speak(sentences[i], "UK English Male", {
 				rate: rate
 			});
