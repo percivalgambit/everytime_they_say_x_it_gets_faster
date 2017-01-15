@@ -31,45 +31,6 @@ button {
         margin-top: 20px;
 }
 
-#cornerplayer {
-        z-index: 999;
-        background-color: #000;
-        width: 50px;
-        height: 50px;
-        border-radius: 0px 50px 0px 0px;
-        -moz-border-radius: 0px 50px 0px 0px;
-        position: fixed;
-        overflow: hidden;
-        bottom: 0px;
-        left: 0px;
-        -webkit-transition: opacity 0.8s linear;
-        -webkit-transition: all 0.8s ease-in-out;
-        -moz-transition: all 0.8s ease-in-out;
-        -o-transition: all 0.8s ease-in-out;
-}
-
-#cornericon {
-        margin-top: 25px;
-        margin-bottom: 20px;
-        margin-left: -5px;
-        -webkit-transition: opacity 0.8s linear;
-        -webkit-transition: all 0.8s ease-in-out;
-        -moz-transition: all 0.8s ease-in-out;
-        -o-transition: all 0.8s ease-in-out;
-}
-
-#cornerplayer:hover {
-        width: 200px;
-        -moz-border-radius: 0px;
-        border-radius: 0px;
-}
-
-#cornerplayer:hover #cornericon {
-        margin-top: 10px;
-        margin-left: 0px;
-        margin-bottom: 4px;
-}
-
 .text {
         color: white;
         font-family: "Comic Sans MS", cursive, sans-serif;
