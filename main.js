@@ -34,7 +34,7 @@ function readText() {
 	responsiveVoice.speak("The most common word is " + mostCommonWord, "UK English Male");
 	let rate = 1;
 	const sentences = text.split(".").map(function(str) {
-		return str.trim();
+		return str.trim().toLowerCase();
 	});
 	for (let i = 0; i < sentences.length; i++) {
 		if (sentences[i]) {
@@ -45,7 +45,7 @@ function readText() {
 			});
 			const occurences = (sentences[i].match(new RegExp(mostCommonWord, "g")) || []).length
 			for (let i = 0; i < occurences; i++) {
-				rate *= 1.05;
+				rate *= 1.1;
 			}
 		}
 	}
